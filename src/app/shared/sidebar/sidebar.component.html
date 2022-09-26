@@ -1,0 +1,10 @@
+<h2>Busquedas</h2>
+        <hr>
+        <ul class="list-group"> <!-- el routerLinkACtive le ponemos una clase cuando estemos en esa url 
+        esto se pone cuando tengamos un path vacio-->
+            <li routerLink=""routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="list-group-item">Buscar país</li>
+            <li routerLink="region" routerLinkActive="active" class="list-group-item">Por región</li>
+            <li routerLink="capital" routerLinkActive="active" class="list-group-item">
+                Por capital
+            </li>
+        </ul>
